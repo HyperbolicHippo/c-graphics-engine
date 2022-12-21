@@ -8,7 +8,7 @@ typedef struct VertexBuffer {
     uint32_t handle;
     const void* data;
     int usage;
-};
+} VertexBuffer;
 
 VertexArray vertex_array_create();
 void vertex_array_bind(VertexArray vao);
